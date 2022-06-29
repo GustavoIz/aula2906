@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:khaki;
+}
+.cabecalho{
+    width: 800px;
+    height: 10vh;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho h2{
+    margin-left: 10px;
+}
+.cabecalho p{
+    padding-right: 10px;
+}
+.cabecalho p a{
+    padding-left: 10px;
+}
+.conteiner{
+    width: 800px;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    
+}
+.box{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    
+}
+.box p{
+    text-align: justify;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-indent: 15px;
+    padding: 15px;
+}
+.rodape{
+    width: 800px;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
